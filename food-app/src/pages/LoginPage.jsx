@@ -56,7 +56,7 @@ function LoginPage(){
                     <ButtonComponent buttonName={"Log In"} onClickLogin={onClickLogin}/>
                     <ErrorMsg message={errorMsg}/>
                 </div>
-                <div className="flex justify-end bg-slate-200 p-2 m-2 rounded-md">
+                <div className="flex justify-end bg-slate-200 p-2 m-2 mt-3 rounded-md">
                     <LoginPopup/>
                 </div>
             </div>
